@@ -11,6 +11,8 @@ body {
 .menu {
     background: black;
     padding: 2.5em;
+    position: fixed;
+    width: 100vw;
 }
 
 .menu ul {
@@ -32,6 +34,7 @@ body {
 @media (max-width: 480px) {
     .menu {
         padding: 1.5em;
+	position: relative;
     }
     
     .menu ul {
